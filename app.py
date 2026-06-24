@@ -7,6 +7,7 @@ import string
 ps = PorterStemmer()
 
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
 nltk.download('stopwords', quiet=True)
 
 STOP_WORDS = set(stopwords.words('english'))
