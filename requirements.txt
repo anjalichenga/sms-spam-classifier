@@ -1,4 +1,12 @@
+# --- Required to run app.py ---
 streamlit
-nltk
 scikit-learn
+nltk
+
+# --- Additional packages needed to run sms_classifier.ipynb ---
 pandas
+numpy
+matplotlib
+seaborn
+xgboost
+jupyter
